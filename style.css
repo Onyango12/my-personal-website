@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: ;
+}
+
+/* navbar styling */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:navy ;
+    padding: 30px 20px ; 
+    color: #fff;
+}
+/* TRBL (Top, Right, Bottom, Left) */
+/* Top and Bottom, Right and Left */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 20px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar ul li{
+    margin-right: 10px;
+}
+
+.navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+.navbar ul li a:hover{
+    background-color: #fff;
+    color: #333;
+}
+
+/* home section */
+
+.home-section{
+    background-image: url(https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-1307227__340.jpg);
+    background-color: yellow;
+    height: 100vh;
+    text-align: center;
+}
+
+.home-section h1{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    right: 25%;
+}
+
+/* About me section */
+.about-section{
+    background-color: red;
+    padding: 100px;
+}
+.about-header h1{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+
+}
+
+.about-content p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.about-row{
+    display: flex;
+}
+.about-column{
+    width: 50%;
+    padding: 30px;
+}
+
+.about-column h3{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.about-list-content{
+    text-align: center;
+}
+.about-list{
+    display: inline-block;
+    text-align: left;
+
+}
+.about-list li{
+    padding-bottom: 10px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+/* Project Section */
+.project-section {
+    background-color: #FFA1DD;
+    padding: 40px;
+}
+.project-section h1{
+    text-align: center;
+        font-size: 40px;
+        padding-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.column{
+    width: 33.33%;
+}
+
+/* Contact section */
+
+.contact-section {
+    background-color: #DEA1FF;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.contact-section h1 {
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.contact-section p {
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    background-color: #FFC3A1;
+    padding: 50px;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
