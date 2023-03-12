@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-image: ;
+    background-image: url(https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29tcHV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
 }
 
 /* navbar styling */
@@ -49,8 +49,8 @@ nav{
 
 /* home section */
 
-.home-section{
-    background-image: url(https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-1307227__340.jpg);
+.home-section{color: white;
+    
     background-color: yellow;
     height: 100vh;
     text-align: center;
@@ -64,18 +64,18 @@ nav{
 }
 
 /* About me section */
-.about-section{
+.about-section{color: white;
     background-color: red;
     padding: 100px;
 }
-.about-header h1{
+.about-header h1{color: white;
     text-align: center;
     font-size: 40px;
     padding-bottom: 20px;
 
 }
 
-.about-content p{
+.about-content p{color: white;
     font-size: 18px;
     text-align: center;
 }
@@ -111,7 +111,7 @@ table, th, td{
 }
 
 /* Project Section */
-.project-section {
+.project-section {color: white;
     background-color: #FFA1DD;
     padding: 40px;
 }
@@ -132,14 +132,14 @@ table, th, td{
 
 /* Contact section */
 
-.contact-section {
+.contact-section {color: white;
     background-color: #DEA1FF;
     padding: 40px;
     text-align: center;
 
 }
 
-.contact-section h1 {
+.contact-section h1 {color: white;
     padding-bottom: 20px;
     font-size: 40px;
 }
@@ -153,11 +153,11 @@ table, th, td{
 
 /* Footer */
 footer {
-    background-color: #FFC3A1;
+    color:white;
     padding: 50px;
     text-align: center;
 }
 
 a {
-    color: white;
+    color: whiteC;
 }
